@@ -440,7 +440,7 @@ export default {
             </div>
         </div>
 
-        <div id="project" class="section flex flex-col gap-8 py-10 px-20">
+        <div id="project" class="section flex flex-col py-10 px-4 sm:px-10 md:px-20">
             <img
                 src="@/assets/images/gameconsign.png"
                 alt="indokajaya"
@@ -777,6 +777,13 @@ export default {
 
             position: sticky;
             top: 50px;
+
+            @media (max-width: 640px) {
+                height: 300px;
+                width: 100%;
+                top: 20%;
+                transform: translateY(-20%);
+            }
 
             &.show {
                 opacity: 1;

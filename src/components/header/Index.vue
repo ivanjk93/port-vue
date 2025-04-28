@@ -96,7 +96,7 @@ onUnmounted(() => {
       <div
         id="navbar-default"
         ref="menuDropdown"
-        :class="isMenuOpen ? 'absolute top-full left-0 w-full bg-white shadow-lg rounded-t-lg z-50' : 'hidden'"
+        :class="isMenuOpen ? 'absolute top-full left-0 w-full bg-black shadow-lg rounded-t-lg z-50' : 'hidden'"
         class="md:block md:relative md:w-auto md:bg-transparent md:shadow-none md:rounded-none md:z-auto"
       >
         <ul class="font-medium flex flex-col gap-8 p-4 md:flex-row md:space-x-8 rtl:space-x-reverse">
